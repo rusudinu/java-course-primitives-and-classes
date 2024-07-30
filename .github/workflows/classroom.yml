@@ -45,4 +45,4 @@ jobs:
           PRIMITIVES-TEST_RESULTS: "${{steps.primitives-test.outputs.result}}"
           CLASSES-TEST_RESULTS: "${{steps.classes-test.outputs.result}}"
         with:
-          runners: primitives-test,classes-test
+          runners: "primitives-test,classes-test"
