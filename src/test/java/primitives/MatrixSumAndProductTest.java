@@ -50,9 +50,6 @@ public class MatrixSumAndProductTest {
                         "201 216 231 " + System.lineSeparator() +
                         "318 342 366 " + System.lineSeparator());
 
-        // Add more test cases for other matrix sizes (4, 5, 6, 7) here
-        // Fill in the expected results for each case.
-
         testWithMatrixSize(4,
                 "1 2 3 4" + System.lineSeparator() +
                         "5 6 7 8" + System.lineSeparator() +
